@@ -7,13 +7,23 @@
 }
 
 .navbar {
-    width: 100vw;
+    width: 16.5vw;
     height: 100vh;
     position: fixed;
 }
 
 .navbar a {
     font-weight: 700;
+    text-align: center;
+}
+
+.img-profile {
+    width: 125px;
+    height: 125px;
+    background: no-repeat url('../img/profile.jpg');
+    background-size: 130px;
+    border-radius: 100%;
+    margin-bottom: 25%;
 }
 
 .main-content {
@@ -39,14 +49,14 @@
     padding: 5%;
 }
 
-.about h1,
-.skills h1 {
-    margin-bottom: 3%;
-}
-
 .skills h1,
 .competence h1 {
     margin-top: 3%;
+}
+
+.about h1,
+.skills h1 {
+    margin-bottom: 3%;
 }
 
 .skills i {
