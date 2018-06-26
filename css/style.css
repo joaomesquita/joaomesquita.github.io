@@ -1,31 +1,48 @@
-.sidebar {
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800,900');
+
+* {
+    font-family: 'Montserrat';
+}
+
+.navbar {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background-color: blue;
+}
+
+.navbar a {
+    font-weight: 700;
 }
 
 .main-content {
-    background-color: brown;
     float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.home h1, 
+.about h1, 
+.works h1, 
+.contact h1 {
+    font-weight: 800;
 }
 
 .home {
     height: 100vh;
-    background-color: aqua;
+    padding: 5%;
 }
 
 .about {
     height: 100vh;
-    background-color: coral;
+    padding: 5%;
 }
 
 .works {
     height: 100vh;
-    background-color: crimson;
+    padding: 5%;
 }
 
 .contact {
+    padding: 5%;
     height: 100vh;
-    background-color: chartreuse;
 }

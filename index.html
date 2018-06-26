@@ -7,35 +7,54 @@
     <link rel="stylesheet" href="resource/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="resource/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>João Mesquita</title>
+    <title>Front-end Developer - João Mesquita</title>
 </head>
 <body>
     <div>
-        <nav class="sidebar">
-            <ul>
-                <li><a href="#home" class="scroll">João Mesquita</a></li>
-                <li><a href="#about" class="scroll">About</a></li>
-                <li><a href="#works" class="scroll">Works</a></li>
-                <li><a href="#contact" class="scroll">Contact</a></li>
+        <nav class="navbar navbar-light bg-light">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link scroll">João Mesquita</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link scroll">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#works" class="nav-link scroll">Works</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link scroll">Contact</a>
+                </li>
             </ul>
         </nav>
     </div>
     <div class="col-md-10 col-sm-8 main-content">
-        <div class="home">
-            <h1 id="home">João Mesquita</h1>
+        <div id="home" class="home text-white bg-dark">
+            <h1>João Mesquita</h1>
         </div>
-        <div class="about">
-            <h1 id="about">About</h1>
+        <div id="about" class="about">
+            <h1>About</h1>
+            <div class="description">
+                <p>I am a student of Analysis and System Development, by the Federal Institute of Mato Grosso do Sul, Nova Andradina - MS.
+                Interested in the area of ​​web development, focused on the client side and passionate about Graphic Design.</p>
+            </div>
+            <div class="description-br">
+                <p>Sou estudante de Análise e Desenvovimento de Sistema, pelo Instituto Federal de Mato Grosso do Sul, Nova Andradina - MS.
+                Interessado na área de desenvolvimento web, focado no lado do cliente e apaixonado por Design gráfico.</p>
+            </div>
+            <div class="technology">
+                <h3>Technology</h3>
+            </div>
         </div>
-        <div class="works">
-            <h1 id="works">Works</h1>
+        <div id="works" class="works text-white bg-dark">
+            <h1>Works</h1>
         </div>
-        <div class="contact">
-            <h1 id="contact">Contact</h1>
+        <div id="contact" class="contact">
+            <h1>Contact</h1>
         </div>
     </div>
-    <script src="resource/jquery/jquery.js"></script>
-    <script src="resource/bootstrap/js/bootstrap.js"></script>
+    <script src="resource/jquery/jquery.min.js"></script>
+    <script src="resource/bootstrap/js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
