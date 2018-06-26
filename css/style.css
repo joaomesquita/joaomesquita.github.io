@@ -1,0 +1,16 @@
+.sidebar {
+    height: 100vh;
+    background-color: blue;
+}
+
+.main-content {
+    background-color: brown;
+}
+
+.home {
+    background-color: aqua;
+}
+
+.about {
+    background-color: coral;
+}
