@@ -23,7 +23,7 @@
     border-radius: 100%;
     border: 1px #8b8b8b solid;
     margin-bottom: 15%;
-    padding: 3.5%;
+    padding: 6px;
 }
 
 .img-profile {
@@ -79,7 +79,7 @@
     text-align: center;
     font-size: 1.8em;
     margin-right: 2%;
-    padding: 1%;
+    padding: 10px;
     background-color: #1a1a1a;
     color: #ffffff;
     border-radius: 100%;
@@ -88,11 +88,6 @@
 .social i:hover {
     background-color: #ffffff;
     color: #1a1a1a;
-}
-
-.skills h3,
-.competence h3 {
-    margin-top: 3%;
 }
 
 .about h1,
@@ -106,11 +101,26 @@
     margin-right: 3%;
 }
 
-.info {
+.projects li, 
+.projects a {
+    margin-bottom: 2%;
+    color: #ffffff;
+}
+
+.projects a:hover,
+.info a:hover {
+    color: #8b8b8b;
+}
+
+.info a {
+    color: #1a1a1a;
+}
+
+.space {
     margin-top: 3%;
 }
 
-.info a:link {
+.decoration-none a:link {
     text-decoration: none;
 }
 
