@@ -38,6 +38,11 @@
     padding: 0;
 }
 
+.background-home {
+    background: no-repeat url('../img/background.jpg');
+    background-size: 1280px;
+}
+
 .home, 
 .about, 
 .works, 
@@ -80,13 +85,13 @@
     font-size: 1.8em;
     margin-right: 2%;
     padding: 10px;
-    background-color: #1a1a1a;
+    background-color: #1a1a1ab6;
     color: #ffffff;
     border-radius: 100%;
 }
 
 .social i:hover {
-    background-color: #ffffff;
+    background-color: #ffffffb6;
     color: #1a1a1a;
 }
 
@@ -122,6 +127,10 @@
 
 .decoration-none a:link {
     text-decoration: none;
+}
+
+.footer p {
+    text-align: center;
 }
 
 @media(min-width: 1920px) {
