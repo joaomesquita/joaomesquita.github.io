@@ -29,8 +29,6 @@
 .img-profile {
     width: 125px;
     height: 125px;
-    background: no-repeat url('../img/profile.jpg');
-    background-size: 130px;
     border-radius: 100%;
 }
 
@@ -64,11 +62,11 @@
     font-size: 4em;
 }
 
-.info p {
+.title p {
     font-size: 1.2em;
 }
 
-.info p:last-child {
+.title p:last-child {
     margin-bottom: 3%;
     font-size: 1.5em;
     text-transform: uppercase;
@@ -108,10 +106,12 @@
     margin-right: 3%;
 }
 
-.works {
+.info {
+    margin-top: 3%;
 }
 
-.contact {
+.info a:link {
+    text-decoration: none;
 }
 
 @media(min-width: 1920px) {
