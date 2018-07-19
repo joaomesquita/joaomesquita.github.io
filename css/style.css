@@ -117,6 +117,10 @@
     color: #8b8b8b;
 }
 
+.works-mobile {
+    display: none;
+}
+
 .info a {
     color: #1a1a1a;
 }
@@ -129,15 +133,30 @@
     text-decoration: none;
 }
 
+.transcard {
+    background-color: #00000065;
+    opacity: 0.6;
+}
+
 .footer p {
     margin: auto;
     text-align: center;
+    font-size: 0.8em;
+    padding-bottom: 10px;
 }
 
 @media(max-width: 475px) {
     .skills i {
         font-size: 1.5em;
     } 
+
+    .works-browser {
+        display: none;
+    }
+
+    .works-mobile {
+        display: inline;
+    }
 }
 
 @media(min-width: 1920px) {
